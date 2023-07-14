@@ -12,9 +12,8 @@ body{
 /* Header */
 header{
     background-color: #788bff;
-
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 /* end of Header */
