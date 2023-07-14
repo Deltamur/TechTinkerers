@@ -1,22 +1,28 @@
-body{
+*{
     margin: 0;
     padding: 0;
+}
+
+body{
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
 }
 
 /* Header/nav bar */
 header{
-    background-color: #778DA9;
+    background-color: #788bff;
     padding: 0 10%;
+    display: flex;
+    justify-content: center;
 }
 
 nav{
     width: 100%;
+    padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    max-width: 1400px;
 }
 
 nav ul li{
@@ -26,9 +32,15 @@ nav ul li{
 }
 
 nav ul a{
+    display: inline-block;
+    list-style: none;
     text-decoration: none;
-    color: white;
     font-size: large;
+    color: white;
+}
+
+nav ul a:hover{
+    color: #E2FDFF;
 }
 
 
@@ -36,60 +48,33 @@ nav ul a{
 /* main */
 
 .home{
-    /* background: rgb(0,97,255);
-    background: linear-gradient(340deg, rgba(0,97,255,1) 25%, rgba(96,239,255,1) 100%); */
-    background-color: #778DA9;
+    background-color: #788bff;
     height: 750px;
-    padding: 10px;
     display: flex;
     align-items: center;
-}
-
-.about{
-    width: 100%;
-    height: 750px;
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.aboutContainer{
-    margin: 20px;
-    width: 75%;
+.welcome{
+    width: 100%;
+    max-width: 1400px;
     display: flex;
     justify-content: space-between;
 }
 
-.aboutBox{
-    width: 300px;
-    height: 350px;
-    background-color: #F7F7F8;
-    border: none;
-    border-radius: 10px;
-}
 
+
+
+/* Contact form */
 .contact{
-    width: 600px;
+    max-width: 550px;
+    min-width: 450px;
+    width: 50%;
     background-color: white;
-    margin: 10px;
-    margin-left: 10%;
     border: none;
     border-radius: 10px;
     padding: 40px;
     font-size: 16px;
-
-}
-
-footer{
-    height: 300px;
-    background-color: #F7F7F8;
-}
-
-
-/* Amogus form styles */
-
-.contactForm{
-    /* height: 100%; */
 }
 
 .contactLabel{
@@ -133,17 +118,18 @@ footer{
 
 .sendForm{
     border: none;
-    padding: 20px 60px;
-    background-color: #415A77;
+    padding: 15px 50px;
+    background-color: #788bff;
     color: white;
     border-radius: 10px;
     cursor: pointer;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 30px;
+    font-size: 20px;
 }
 
 .sendForm:hover{
-    background-color: #344960;
+    background-color: #5465ff;
 }
 
 .nameLabel{
@@ -162,4 +148,10 @@ footer{
     display: block;
     margin-bottom: 5px;
     margin-left: 5px;
+}
+/* end of contact form*/
+
+footer{
+    height: 300px;
+    background-color: #F7F7F8;
 }
