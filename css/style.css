@@ -28,7 +28,8 @@ header{
     padding: 60px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .welcomeBlocks{
@@ -38,10 +39,33 @@ header{
     gap: 40px;
 }
 
+
 .welcomeText{
-    max-width: 350px;
+    max-width: 500px;
+    order: 1;
+    font-size: xx-large;
 }
 
+@media (min-width:1000px){
+    .welcomeBlocks{
+        flex-direction: row;
+    }
+}
+
+.welcomeButton{
+    border: none;
+    color: white;
+    background-color: #3f37c9;
+    padding: 20px 50px ;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.welcomeButton:hover{
+    background-color: #322ca4;
+}
 
 /* end of home */
 
