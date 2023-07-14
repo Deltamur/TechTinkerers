@@ -5,6 +5,7 @@
 body{
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
+    font-size: 16px;
 }
 
 
@@ -60,7 +61,6 @@ header{
 }
 
 .aboutBlock{
-    height: 380px;
     max-width: 350px;
     background-color: #F7F7F8;
     border: none;
@@ -69,13 +69,25 @@ header{
     padding: 20px;
 }
 
+.aboutBlock p{
+    padding: 20px 0;
+}
+
+.aboutBlock h3{
+    font-size: 30px;
+}
+
+@media (min-width:1000px){
+    .aboutBlocks{
+        flex-direction: row;
+    }
+}
+
 
 /* end of about */
 
-/* end of main */
-
-
 /* Contact form */
+
 /* .contact{
     max-width: 550px;
     min-width: 450px;
@@ -159,7 +171,13 @@ header{
     margin-bottom: 5px;
     margin-left: 5px;
 } */
+
 /* end of contact form*/
+
+/* end of main */
+
+
+
 
 
 
