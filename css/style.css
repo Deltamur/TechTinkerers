@@ -8,6 +8,10 @@ body{
     line-height: 1.5;
 }
 
+
+
+
+
 /* Header/nav bar */
 header{
     background-color: #788bff;
@@ -16,37 +20,11 @@ header{
     justify-content: center;
 }
 
-nav{
-    width: 100%;
-    padding: 10px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1400px;
-}
-
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 30px;
-}
-
-nav ul a{
-    display: inline-block;
-    list-style: none;
-    text-decoration: none;
-    font-size: large;
-    color: white;
-}
-
-nav ul a:hover{
-    color: #E2FDFF;
-}
-
+/* end of header */
 
 
 /* main */
-
+/* home */
 .home{
     background-color: #788bff;
     height: 750px;
@@ -62,11 +40,11 @@ nav ul a:hover{
     justify-content: space-between;
 }
 
-
+/* end of home */
 
 
 /* Contact form */
-.contact{
+/* .contact{
     max-width: 550px;
     min-width: 450px;
     width: 50%;
@@ -148,10 +126,14 @@ nav ul a:hover{
     display: block;
     margin-bottom: 5px;
     margin-left: 5px;
-}
+} */
 /* end of contact form*/
 
+
+
+/* footer */
 footer{
     height: 300px;
     background-color: #F7F7F8;
 }
+/* end of footer */
