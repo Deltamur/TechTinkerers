@@ -15,7 +15,7 @@ body{
 /* Header/nav bar */
 header{
     background-color: #788bff;
-    padding: 0 10%;
+
     display: flex;
     justify-content: center;
 }
@@ -28,6 +28,7 @@ header{
 .home{
     background-color: #788bff;
     height: 750px;
+    padding: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,12 +36,63 @@ header{
 
 .welcome{
     width: 100%;
-    max-width: 1400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
+.welcomeText{
+    width: 310px;
+    max-width: 310px;
+}
+
+
 /* end of home */
+
+/* about */
+.about{
+    padding: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.aboutBlocks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.aboutBlock{
+    height: 340px;
+    max-height: 340px;
+    width: 310px;
+    max-width: 310px;
+    background-color: #F7F7F8;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutText{
+    width: 310px;
+    max-width: 310px;
+}
+
+/* end of about */
+
+/* contact */
+
+.contact{
+    background-color: #788bff;
+    padding: 60px;
+}
+
+/* end of contact */
 
 
 /* Contact form */
