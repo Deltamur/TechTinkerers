@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 18px;
 }
+
+    
 
 
 
@@ -21,56 +21,89 @@ header{
 
 
 /* main */
-/* home */
-.home{
-    background-color: #788bff;
-    min-height: 750px;
-    padding: 60px;
+/* hero */
+.hero{
+    height: 100%;
+    min-height: 100vh;
+    background-color: #788bff ;
+    padding: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 }
 
-.welcomeBlocks{
+.heroBlocks{
+    max-width: 1200px;
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    justify-content: top;
     gap: 40px;
 }
 
-
-.welcomeText{
-    max-width: 500px;
-    order: 1;
-    font-size: xx-large;
+.heroText{
+    order:2;
+    width: 100%;
+    text-align: center;
+    align-items: center;
 }
 
+.heroText h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+
+.heroText p{
+    font-size: 22px;
+}
+
+.heroButton{
+    color: white;
+    font-weight: 600;
+    background-color: #4cc9f0;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 40px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.heroButton:hover{
+    background-color: #f72585;
+}
+
+
+.heroImage{
+    order:1;
+    width: 100%;
+    max-width: 750px;
+}
+
+
 @media (min-width:1000px){
-    .welcomeBlocks{
+    .heroBlocks{
         flex-direction: row;
+        justify-content: center;
+    }
+    .heroText{
+        order: 1;
+        text-align: left;
+        align-items: left;
+    }
+    .heroImage{
+        order:2;
     }
 }
 
-.welcomeButton{
-    border: none;
-    color: white;
-    background-color: #3f37c9;
-    padding: 20px 50px ;
-    font-size: large;
-    cursor: pointer;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-.welcomeButton:hover{
-    background-color: #322ca4;
-}
-
-/* end of home */
+/* end of hero */
 
 /* about */
 .about{
+    height: 100%;
+    min-height: 100vh;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -85,6 +118,7 @@ header{
 }
 
 .aboutBlock{
+    
     max-width: 350px;
     background-color: #F7F7F8;
     border: none;
@@ -103,6 +137,7 @@ header{
 
 @media (min-width:1000px){
     .aboutBlocks{
+        max-height: 380px;
         flex-direction: row;
     }
 }
