@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 
     
@@ -50,13 +50,13 @@ header{
 }
 
 .heroText h1{
-    font-size: 40px;
+    font-size: 2.5rem;  
     margin-bottom: 10px;
     
 }
 
 .heroText p{
-    font-size: 22px;
+    font-size: 1.4rem;
 }
 
 .heroButton{
@@ -113,7 +113,7 @@ header{
 
 .aboutTitle{
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .aboutBlocks{
@@ -139,7 +139,7 @@ header{
 }
 
 .aboutBlock h3{
-    font-size: 30px;
+    font-size: 1.75rem;
 }
 
 .aboutText{
