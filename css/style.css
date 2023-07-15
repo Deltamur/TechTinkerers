@@ -108,12 +108,12 @@ header{
     justify-content: center;
     align-items: center;
     padding: 40px;
+    gap: 40px;
 }
 
 .aboutTitle{
     text-align: center;
     font-size: 30px;
-    margin-bottom: 30px;
 }
 
 .aboutBlocks{
@@ -121,6 +121,7 @@ header{
     justify-content: center;
     flex-direction: column;
     gap: 40px;
+
 }
 
 .aboutBlock{
@@ -140,6 +141,11 @@ header{
 .aboutBlock h3{
     font-size: 30px;
 }
+
+.aboutText{
+    max-width: 1250px;
+}
+
 
 @media (min-width:1000px){
     .aboutBlocks{
