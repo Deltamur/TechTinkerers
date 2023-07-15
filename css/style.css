@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
 }
 
 .navBar{
@@ -26,8 +26,11 @@ header{
 }
 
 .logo{
-    max-width: 250px;
-    max-height: 75px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 .navBar ul{
@@ -67,7 +70,7 @@ header{
 /* hero */
 .hero{
     height: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     background-color: #788bff ;
     padding: 40px;
     display: flex;
