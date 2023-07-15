@@ -102,8 +102,7 @@ header{
 
 /* about */
 .about{
-    height: 100%;
-    min-height: 100vh;
+
     background-color: white;
     display: flex;
     justify-content: center;
@@ -118,7 +117,7 @@ header{
 }
 
 .aboutBlock{
-    
+    min-height: 380px;
     max-width: 350px;
     background-color: #F7F7F8;
     border: none;
@@ -137,7 +136,6 @@ header{
 
 @media (min-width:1000px){
     .aboutBlocks{
-        max-height: 380px;
         flex-direction: row;
     }
 }
