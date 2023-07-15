@@ -115,7 +115,7 @@ header{
     background-color: #4cc9f0;
     border: none;
     border-radius: 4px;
-    padding: 12px 20px;
+    padding: 0.75rem 1.25rem;
     margin: 40px 0;
     cursor: pointer;
     text-align: center;
@@ -208,89 +208,81 @@ header{
 
 /* Contact form */
 
-/* .contact{
-    max-width: 550px;
-    min-width: 450px;
-    width: 50%;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
+.contact{
     padding: 40px;
-    font-size: 16px;
-}
-
-.contactLabel{
-    display: block;
-    box-sizing: border-box;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
-.nameForm{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc; 
-    background-color: #F7F7F8;
-    border-radius: 10px;
-}
-
-.phoneForm{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    background-color: #F7F7F8;
-    border-radius: 10px;
-}
-
-.messageForm{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    background-color: #F7F7F8;
-    border-radius: 10px;
-    resize: vertical;
-}
-
-.sendForm{
-    border: none;
-    padding: 15px 50px;
     background-color: #788bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactTitle{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contactContainer{
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contactForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactForm label{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.contactForm input[type=text]{
+    background-color: #F7F7F8;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.contactForm input[type=phone]{
+    background-color: #F7F7F8;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+.contactForm input[type=submit]{
     color: white;
-    border-radius: 10px;
+    font-weight: 600;
+    background-color: #4cc9f0;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.25rem;
+    margin-top: 40px;
     cursor: pointer;
     text-align: center;
-    margin-top: 30px;
-    font-size: 20px;
 }
 
-.sendForm:hover{
-    background-color: #5465ff;
+.contactForm input[type=submit]:hover{
+    background-color: #f72585;
 }
 
-.nameLabel{
-    display: block;
-    margin-bottom: 5px;
-    margin-left: 5px;
-}
-
-.phoneLabel{
-    display: block;
-    margin-bottom: 5px;
-    margin-left: 5px;
-}
-
-.messageLabel{
-    display: block;
-    margin-bottom: 5px;
-    margin-left: 5px;
-} */
 
 /* end of contact form*/
 
