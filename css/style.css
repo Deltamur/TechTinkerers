@@ -290,17 +290,17 @@ header{
 }
 
 @media (min-width=1000px) {
-    
+    .contactContainer{
+        padding: 40px;
+        gap: 40px;
+    }
 }
 
 /* end of contact form*/
 
 /* end of main */
 
-.contactContainer{
-    padding: 40px;
-    gap: 40px;
-}
+
 
 
 
