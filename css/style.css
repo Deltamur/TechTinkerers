@@ -272,6 +272,18 @@ header{
     margin-bottom: 20px;
 }
 
+.contactForm textarea{
+    resize: vertical;
+    background-color: #F7F7F8;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 20px;
+    min-height: 55px;
+}
+
 .contactForm input[type=submit]{
     width: 100%;
     color: white;
