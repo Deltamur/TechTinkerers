@@ -89,6 +89,7 @@ header{
     flex-direction: column;
     justify-content: top;
     gap: 40px;
+    margin-top: 52px;
 }
 
 .heroText{
@@ -139,6 +140,7 @@ header{
     .heroBlocks{
         flex-direction: row;
         justify-content: center;
+        margin-top: 0;
     }
     .heroText{
         order: 1;
